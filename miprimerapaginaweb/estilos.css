@@ -1,0 +1,55 @@
+body
+{
+	margin: 0 auto;
+	background-color: #F5A9D0;
+	font-family: segoe ui;
+} 
+
+#all
+{
+	width: 853px;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: #333 0px 0px 10px;
+	background-color: #fff;
+}
+
+nav
+{
+	background-color: #666;
+
+}
+
+nav ul li 
+{
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+	color: #f1f1f1;
+	
+}
+
+nav ul li a 
+{
+	color: #f1f1f1;
+	text-decoration: none;
+	padding: 10px 15px;
+	transition: all 0.5s linear;
+	-webkit- transition: all 0.5s linear;
+}
+
+nav ul li a:hover
+{
+	box-shadow: #f1f1f1 0px 0px 10px;
+	background-color: #333;
+}
+
+aside
+{
+	float: left;
+}
+
+article
+{
+	margin-top: 100px;
+}
