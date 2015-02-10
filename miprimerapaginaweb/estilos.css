@@ -47,9 +47,31 @@ nav ul li a:hover
 aside
 {
 	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 article
 {
-	margin-top: 100px;
+	text-align: justify;
+	padding: 10px;
 }
+
+.titulo
+{
+	font-size: 22px;
+	font-weight: 400;
+	position: static;
+	text-align: left;
+}
+
+footer
+{
+	background-color: #666;
+	text-align: center;
+	padding: 10px 15px;
+	color: #f3f3f3;
+	margin-top: 50px;
+
+}
+
